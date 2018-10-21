@@ -1,0 +1,39 @@
+LIBRARY SBREXX INITINSTANCE LONGNAMES
+PROTMODE
+DESCRIPTION 'SBREXX Utilities - (c) Copyright IBM Corporation 1995,1996'
+DATA MULTIPLE NONSHARED
+STACKSIZE 32768
+EXPORTS
+   SBLOADPARSEPB            = SBLoadParsePB
+   SBLOADCOMPILEDPB         = SBLoadCompiledPB
+   SBSAVEPARSEPB            = SBSaveParsePB
+   SBSAVECOMPILEDPB         = SBSaveCompiledPB
+   SBVERSION                = SBVersion
+   SBLOADFUNCS              = SBLoadFuncs
+   SBDROPFUNCS              = SBDropFuncs
+   SBCOUNTALLPB             = SBCountAllPB
+   SBCONFIGURESYSTEM        = SBConfigureSystem
+   SBGETALLCLASSES          = SBGetAllClasses
+   SBGETALLCOMPSANDDESC     = SBGetAllCompsAndDesc
+   SBGETALLDATATYPES        = SBGetAllDataTypes
+   SBGETALLPRODUCTLINES     = SBGetAllProductLines
+   SBGETALLRESOURCES        = SBGetAllResources
+   SBREQUESTCOMPONENT       = SBRequestComponent
+   SBREQUESTRESOURCE        = SBRequestResource
+   SBNEWSYSTEM              = SBNewSystem
+   SBBUNDLESYSTEM           = SBBundleSystem
+   SBLOADPARSEPCM           = SBLoadParsePCM
+   SBLOADCOMPILEDPCM        = SBLoadCompiledPCM
+   SBGETALLBOMDATA          = SBGetAllBOMData
+   SBGETPRODUCTLINEPRODUCTS = SBGetProductLineProducts
+   SBPCMVERSION             = SBPCMVersion
+   SBGETALLPRODUCTS         = SBGetAllProducts
+   SBGETALLPRODUCTSWITHDESC = SBGetAllProductsWithDesc
+   SBGETPRODUCTPRODUCTLINES = SBGetProductProductLines
+   SBBUNDLEDRESULTS         = SBBundledResults
+   SBSQLQUERY               = SBSQLQuery
+   SBBUNDLEDRESULTSEXPANDED = SBBundledResultsExpanded
+   SBRECONFIGURESYSTEM      = SBReconfigureSystem
+   SBGETIMPLICITREQUESTS    = SBGetImplicitRequests
+   SBGETEXPLICITREQUESTS    = SBGetExplicitRequests
+
